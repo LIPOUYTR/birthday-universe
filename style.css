@@ -1072,3 +1072,218 @@ h2 em {
     transition-duration: .01ms !important;
   }
 }
+
+
+
+
+/* 🍓 SUNSHINE STRAWBERRY CUPCAKE THEME */
+
+:root {
+  --bg: #fffaf0;
+  --panel: #fff3e4;
+  --ink: #684b42;
+  --muted: #a48778;
+  --pink: #f28fa5;
+  --pink-dark: #df718d;
+  --lilac: #f5c5b8;
+  --line: rgba(218, 157, 126, .25);
+  --cream: #fffdf7;
+}
+
+/* Main page */
+body {
+  background: #fffaf0;
+  color: #684b42;
+}
+
+/* Navigation */
+.topbar {
+  background: rgba(255, 250, 240, .8);
+  border-color: rgba(218, 157, 126, .25);
+}
+
+.brand,
+.hero h1,
+.intro h2,
+.section-heading h2,
+.birthday h2,
+.finale h2 {
+  color: #684b42;
+}
+
+.brand-mark,
+.eyebrow,
+.section-kicker,
+.hero h1 em,
+h2 em {
+  color: #df718d;
+}
+
+/* Sunshine hero section */
+.hero {
+  background:
+    radial-gradient(ellipse at 78% 35%, rgba(255, 213, 133, .5), transparent 45%),
+    radial-gradient(ellipse at 15% 85%, rgba(255, 190, 190, .35), transparent 40%),
+    linear-gradient(130deg, #fff9e9, #fff0e8 55%, #fff4e9);
+}
+
+.hero-sub,
+.intro-text {
+  color: #987b6e;
+}
+
+.primary-button {
+  background: linear-gradient(135deg, #f6a0ad, #e97891);
+  color: white;
+  box-shadow: 0 10px 25px rgba(223, 113, 141, .22);
+}
+
+/* Photo frame */
+.portrait-frame {
+  background: #ffe8d8;
+  border-color: rgba(255, 255, 255, .95);
+  box-shadow: 0 25px 70px rgba(195, 135, 104, .2);
+}
+
+.halo {
+  border-color: rgba(246, 184, 105, .55);
+}
+
+.halo-front {
+  border-color: rgba(239, 143, 164, .5);
+}
+
+.floating-star,
+.cake-sparkle {
+  color: #e9a83f;
+}
+
+/* Intro - strawberry cream */
+.intro {
+  background: #fff1e9;
+}
+
+.signature span {
+  color: #df718d;
+}
+
+.orbit-word {
+  color: rgba(223, 113, 141, .16);
+}
+
+/* Gallery */
+.gallery {
+  background: #fffaf0;
+}
+
+.memory-card {
+  background: #ffe8df;
+  border-color: #fff;
+  box-shadow: 0 16px 40px rgba(195, 135, 104, .16);
+}
+
+.gallery-hint {
+  color: #b28b76;
+}
+
+/* Birthday section - vanilla cupcake */
+.birthday {
+  background:
+    radial-gradient(ellipse at 50% 40%, rgba(255,255,255,.95), transparent 48%),
+    linear-gradient(145deg, #fff0df, #fff8e9 55%, #ffe9e8);
+}
+
+.birthday-glow {
+  background: radial-gradient(circle, rgba(255, 199, 113, .28), transparent 68%);
+}
+
+/* Strawberry frosting cake */
+.cake-body {
+  background: linear-gradient(
+    110deg,
+    #e97891,
+    #ffbdc5 50%,
+    #e88ba0
+  );
+  box-shadow:
+    inset -15px -4px 25px rgba(167, 88, 120, .13),
+    inset 10px 5px 15px rgba(255,255,255,.5);
+}
+
+.cake-top {
+  background: radial-gradient(
+    ellipse,
+    #fffdf5 0%,
+    #fff0d9 65%,
+    #f6c6b9 100%
+  );
+}
+
+.cake-plate {
+  background: linear-gradient(#fffdf7, #f4dfc9);
+  box-shadow: 0 5px 0 #e7cbb7;
+}
+
+.candle {
+  background: repeating-linear-gradient(
+    135deg,
+    #fff8e9 0 7px,
+    #f28fa5 7px 13px
+  );
+}
+
+.cake-instruction,
+.birthday-pre {
+  color: #ad8a72;
+}
+
+.wish-message {
+  color: #df718d;
+}
+
+/* Final section */
+.finale {
+  background: #fff1e9;
+}
+
+.finale-stars {
+  color: #e9a83f;
+}
+
+.back-top {
+  color: #df718d;
+  border-color: rgba(223, 113, 141, .4);
+}
+
+/* Lightbox */
+.lightbox {
+  background: rgba(255, 248, 235, .97);
+}
+
+.lightbox p {
+  color: #df718d;
+}
+
+.lightbox-close {
+  color: #b8797e;
+}
+
+/* Little warm details */
+.sound-toggle {
+  background: rgba(255, 255, 255, .8);
+  color: #987b6e;
+}
+
+.sound-toggle.active .sound-dot {
+  background: #df718d;
+  box-shadow: 0 0 10px #f6a0ad;
+}
+
+::selection {
+  background: #ffd5d9;
+  color: #684b42;
+}
+
+
+
+
