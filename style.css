@@ -1285,5 +1285,86 @@ h2 em {
 }
 
 
+/* TEXT VISIBILITY FIX 🍓 */
+
+body,
+p,
+span,
+label,
+small {
+  color: #684b42;
+}
+
+/* Main headings */
+h1, h2, h3, h4,
+.hero h1,
+.intro h2,
+.section-heading h2,
+.birthday h2,
+.finale h2 {
+  color: #684b42 !important;
+}
+
+/* Paragraphs and descriptions */
+.hero-sub,
+.intro-text,
+.gallery-hint,
+.cake-instruction,
+.birthday-pre,
+.signature,
+.memory-card p {
+  color: #886c60 !important;
+}
+
+/* Pink highlighted text */
+.hero h1 em,
+h2 em,
+.eyebrow,
+.section-kicker,
+.brand-mark,
+.wish-message,
+.lightbox p {
+  color: #c94f70 !important;
+}
+
+/* Buttons */
+button,
+.primary-button,
+.back-top {
+  color: #684b42;
+}
+
+.primary-button {
+  color: #ffffff !important;
+}
+
+/* Navigation and small labels */
+.topbar a,
+nav a,
+.brand {
+  color: #684b42 !important;
+}
+
+/* Make muted text readable */
+.muted,
+.caption,
+.gallery-hint {
+  color: #886c60 !important;
+}
+
+/* Footer */
+footer,
+footer p {
+  color: #886c60 !important;
+}
+
+/* Icons */
+svg {
+  opacity: 1;
+}
+
+
+
+
 
 
